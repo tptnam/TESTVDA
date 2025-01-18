@@ -1,16 +1,10 @@
-import { Badge, Button } from 'react-bootstrap'
 import './App.css'
+import Navbar from './components/header/Navbar'
 
 function App() {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-      <h1>
-        Example heading
-        <Badge bg='secondary' as={Button}>
-          New
-        </Badge>
-      </h1>
+    <div className='flex flex-col min-h-screen'>
+      <Navbar />
     </div>
   )
 }
