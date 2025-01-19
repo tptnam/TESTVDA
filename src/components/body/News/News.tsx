@@ -13,7 +13,7 @@ const News: React.FC<FlashSaleProps> = ({ products }) => {
     <div id='tin-tuc' className='tw-relative tw-py-12 tw-bg-cover tw-bg-center tw-bg-no-repeat'>
       <div className='tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-10'>
         <div className='tw-flex tw-flex-col tw-w-1/2 tw-relative tw-items-center tw-justify-center'>
-          <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Tin Tức & Sự Kiện</h2>
+          <h2 className='tw-text-3xl tw-font-bold tw-text-orange-500 tw-text-center'>Tin Tức & Sự Kiện</h2>
         </div>
 
         <div className='tw-relative tw-w-full tw-px-8 tw-mt-10'>

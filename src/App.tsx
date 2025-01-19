@@ -5,7 +5,7 @@ import Navbar from './components/header/Navbar'
 
 function App() {
   return (
-    <div className='tw-flex tw-flex-col tw-min-h-screen'>
+    <div className='tw-flex tw-flex-col tw-min-h-screen tw-overflow-x-hidden tw-w-full'>
       <Navbar />
       <Body />
       <Footer />

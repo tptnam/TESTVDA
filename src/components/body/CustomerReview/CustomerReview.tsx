@@ -24,7 +24,7 @@ const CustomerReview: React.FC<ReviewProps> = ({ reviews }) => {
       <div className='tw-flex tw-flex-col xl:tw-flex-row tw-min-h-[400px] xl:tw-min-h-[639px]'>
         <div className='tw-flex tw-flex-col tw-justify-around tw-bg-bgApp2 tw-opacity-65 tw-p-6 sm:tw-p-8 xl:tw-p-12 tw-text-white tw-w-full xl:tw-w-1/2 tw-py-12 xl:tw-pt-40'>
           <div className='tw-flex tw-flex-col tw-flex-grow tw-max-w-[500px] tw-m-auto md:tw-ml-24'>
-            <h2 className='tw-text-3xl sm:tw-text-4xl xl:tw-text-5xl tw-font-bold tw-mb-4 xl:tw-mb-8'>
+            <h2 className='tw-text-2xl sm:tw-text-3xl xl:tw-text-4xl tw-font-bold tw-mb-4 xl:tw-mb-8'>
               Khách hàng nói gì về ABCSport
             </h2>
 

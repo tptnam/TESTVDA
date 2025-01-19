@@ -40,8 +40,8 @@ const Showroom: React.FC<ShowroomProps> = ({ Showrooms }) => {
           <img src='/showroom2.webp' alt='Showroom 2' className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover' />
         </div>
 
-        <div className='tw-w-full lg:tw-w-1/2 tw-flex tw-flex-col tw-pl-12'>
-          <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-mb-4'>120 Showroom Toàn Quốc</h2>
+        <div className='tw-w-full lg:tw-w-1/2 tw-flex tw-flex-col tw-pl-3'>
+          <h2 className='tw-text-3xl tw-font-bold tw-text-orange-500 tw-mb-4 tw-text-center'>120 Showroom Toàn Quốc</h2>
           <div className='tw-flex tw-border-b tw-mb-4'>
             {regions.map((region) => (
               <button
