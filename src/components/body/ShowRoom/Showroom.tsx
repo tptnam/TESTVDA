@@ -27,7 +27,7 @@ const Showroom: React.FC<ShowroomProps> = ({ Showrooms }) => {
   return (
     <div className='tw-w-full tw-mx-auto tw-bg-[#fdf5f3] tw-relative'>
       <img
-        src='./src/assets/EllipseShowroom.png'
+        src='src/assets/EllipseShowroom.png'
         alt='Showroom Background'
         className=' tw-h-2/3 tw-absolute tw-translate-x-0 tw-translate-y-1/4 tw-hidden lg:tw-block'
       />
@@ -37,12 +37,12 @@ const Showroom: React.FC<ShowroomProps> = ({ Showrooms }) => {
       >
         <div className='tw-w-[45%] lg:tw-flex lg:tw-flex-col tw-gap-4 tw-self-center tw-pl-[7%] tw-hidden '>
           <img
-            src='./src/assets/showroom1.png'
+            src='src/assets/showroom1.png'
             alt='Showroom 1'
             className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover'
           />
           <img
-            src='./src/assets/showroom2.png'
+            src='src/assets/showroom2.png'
             alt='Showroom 2'
             className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover'
           />

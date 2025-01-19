@@ -17,42 +17,42 @@ export default function Body() {
       name: 'Ghế massage ABCSport A35',
       originalPrice: 16900000,
       salePrice: 12900000,
-      image: './src/assets/product1.png'
+      image: 'src/assets/product1.png'
     },
     {
       id: 2,
       name: 'Ghế massage ABCSport A24 NEW',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: './src/assets/product2.png'
+      image: 'src/assets/product2.png'
     },
     {
       id: 3,
       name: 'Ghế massage ABCSport Premium A32',
       originalPrice: 150000000,
       salePrice: 98000000,
-      image: './src/assets/product3.png'
+      image: 'src/assets/product3.png'
     },
     {
       id: 4,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 16900000,
       salePrice: 12900000,
-      image: './src/assets/product4.png'
+      image: 'src/assets/product4.png'
     },
     {
       id: 5,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: './src/assets/banner1.png'
+      image: 'src/assets/banner1.png'
     },
     {
       id: 6,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: './src/assets/product4.png'
+      image: 'src/assets/product4.png'
     }
   ]
 
@@ -61,43 +61,43 @@ export default function Body() {
       id: 1,
       name: 'Ghế Massage',
       productCount: 10,
-      image: './src/assets/product1.png'
+      image: 'src/assets/product1.png'
     },
     {
       id: 2,
       name: 'Máy Chạy Bộ',
       productCount: 15,
-      image: './src/assets/product2.png'
+      image: 'src/assets/product2.png'
     },
     {
       id: 3,
       name: 'Xe Đạp',
       productCount: 15,
-      image: './src/assets/product3.png'
+      image: 'src/assets/product3.png'
     },
     {
       id: 4,
       name: 'Ghế Massage',
       productCount: 10,
-      image: './src/assets/product4.png'
+      image: 'src/assets/product4.png'
     },
     {
       id: 5,
       name: 'Máy Chạy Bộ',
       productCount: 15,
-      image: './src/assets/product1.png'
+      image: 'src/assets/product1.png'
     },
     {
       id: 6,
       name: 'Xe Đạp',
       productCount: 15,
-      image: './src/assets/product3.png'
+      image: 'src/assets/product3.png'
     },
     {
       id: 7,
       name: 'Ghế Massage',
       productCount: 10,
-      image: './src/assets/product2.png'
+      image: 'src/assets/product2.png'
     }
   ]
 
@@ -213,35 +213,35 @@ export default function Body() {
       id: 1,
       title: 'Sample News Title 1',
       content: 'This is a brief description of the first news article.',
-      image: './src/assets/news1.png',
+      image: 'src/assets/news1.png',
       date: '2025-01-18'
     },
     {
       id: 2,
       title: 'Sample News Title 2',
       content: 'This is a brief description of the second news article.',
-      image: './src/assets/news2.png',
+      image: 'src/assets/news2.png',
       date: '2025-01-17'
     },
     {
       id: 3,
       title: 'Sample News Title 3',
       content: 'This is a brief description of the third news article.',
-      image: './src/assets/news3.png',
+      image: 'src/assets/news3.png',
       date: '2025-01-16'
     },
     {
       id: 4,
       title: 'Sample News Title 4',
       content: 'This is a brief description of the fourth news article.',
-      image: './src/assets/news4.png',
+      image: 'src/assets/news4.png',
       date: '2025-01-15'
     },
     {
       id: 5,
       title: 'Sample News Title 5',
       content: 'This is a brief description of the fifth news article.',
-      image: './src/assets/news2.png',
+      image: 'src/assets/news2.png',
       date: '2025-01-14'
     }
   ]

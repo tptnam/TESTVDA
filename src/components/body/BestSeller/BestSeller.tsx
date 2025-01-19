@@ -13,7 +13,7 @@ const BestSeller: React.FC<BestSellerProps> = ({ products }) => {
       <div className='tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col tw-items-center tw-justify-center '>
         <div className='tw-flex tw-flex-col tw-w-1/2'>
           <div className='tw-justify-center tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-gap-1 md:tw-gap-2'>
-            <img src='./src/assets/best-seller1.png' alt='Medal icon' className='tw-w-24 tw-h-24' />
+            <img src='src/assets/best-seller1.png' alt='Medal icon' className='tw-w-24 tw-h-24' />
             <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Ghế Massage ABCSport</h2>
           </div>
           <p className='tw-text-gray-600 tw-mt-2 tw-text-center'>
