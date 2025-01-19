@@ -17,42 +17,42 @@ export default function Body() {
       name: 'Ghế massage ABCSport A35',
       originalPrice: 16900000,
       salePrice: 12900000,
-      image: '/product1.png'
+      image: '/product1.webp'
     },
     {
       id: 2,
       name: 'Ghế massage ABCSport A24 NEW',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: '/product2.png'
+      image: '/product2.webp'
     },
     {
       id: 3,
       name: 'Ghế massage ABCSport Premium A32',
       originalPrice: 150000000,
       salePrice: 98000000,
-      image: '/product3.png'
+      image: '/product3.webp'
     },
     {
       id: 4,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 16900000,
       salePrice: 12900000,
-      image: '/product4.png'
+      image: '/product4.webp'
     },
     {
       id: 5,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: '/banner1.png'
+      image: '/banner1.webp'
     },
     {
       id: 6,
       name: 'Ghế massage ABCSport A24',
       originalPrice: 20000000,
       salePrice: 14900000,
-      image: '/product4.png'
+      image: '/product4.webp'
     }
   ]
 
@@ -61,43 +61,43 @@ export default function Body() {
       id: 1,
       name: 'Ghế Massage',
       productCount: 10,
-      image: '/product1.png'
+      image: '/product1.webp'
     },
     {
       id: 2,
       name: 'Máy Chạy Bộ',
       productCount: 15,
-      image: '/product2.png'
+      image: '/product2.webp'
     },
     {
       id: 3,
       name: 'Xe Đạp',
       productCount: 15,
-      image: '/product3.png'
+      image: '/product3.webp'
     },
     {
       id: 4,
       name: 'Ghế Massage',
       productCount: 10,
-      image: '/product4.png'
+      image: '/product4.webp'
     },
     {
       id: 5,
       name: 'Máy Chạy Bộ',
       productCount: 15,
-      image: '/product1.png'
+      image: '/product1.webp'
     },
     {
       id: 6,
       name: 'Xe Đạp',
       productCount: 15,
-      image: '/product3.png'
+      image: '/product3.webp'
     },
     {
       id: 7,
       name: 'Ghế Massage',
       productCount: 10,
-      image: '/product2.png'
+      image: '/product2.webp'
     }
   ]
 
@@ -213,35 +213,35 @@ export default function Body() {
       id: 1,
       title: 'Sample News Title 1',
       content: 'This is a brief description of the first news article.',
-      image: '/news1.png',
+      image: '/news1.webp',
       date: '2025-01-18'
     },
     {
       id: 2,
       title: 'Sample News Title 2',
       content: 'This is a brief description of the second news article.',
-      image: '/news2.png',
+      image: '/news2.webp',
       date: '2025-01-17'
     },
     {
       id: 3,
       title: 'Sample News Title 3',
       content: 'This is a brief description of the third news article.',
-      image: '/news3.png',
+      image: '/news3.webp',
       date: '2025-01-16'
     },
     {
       id: 4,
       title: 'Sample News Title 4',
       content: 'This is a brief description of the fourth news article.',
-      image: '/news4.png',
+      image: '/news4.webp',
       date: '2025-01-15'
     },
     {
       id: 5,
       title: 'Sample News Title 5',
       content: 'This is a brief description of the fifth news article.',
-      image: '/news2.png',
+      image: '/news2.webp',
       date: '2025-01-14'
     }
   ]

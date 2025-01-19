@@ -10,7 +10,7 @@ const Navbar = () => {
       <BSNavbar expand='lg' className='py-3 tw-bg-bgApp fixed-top'>
         <Container>
           <BSNavbar.Brand href='/' className='text-white tw-w-32 md:tw-w-auto'>
-            <img src='/brandLogo.png' alt='ABC Sport' className='tw-h-8 md:tw-h-10' />
+            <img src='/brandLogo.webp' alt='ABC Sport' className='tw-h-8 md:tw-h-10' />
           </BSNavbar.Brand>
 
           <div className='tw-flex-grow tw-hidden tw-mx-4 md:tw-flex lg:tw-mx-10'>

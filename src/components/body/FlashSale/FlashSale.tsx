@@ -9,7 +9,7 @@ interface FlashSaleProps {
 
 const FlashSale: React.FC<FlashSaleProps> = ({ products }) => {
   return (
-    <div className='tw-relative tw-py-12 tw-bg-[url(//bgFlashSale.png)] tw-bg-cover tw-bg-center tw-bg-no-repeat'>
+    <div className='tw-relative tw-py-12 tw-bg-[url(//bgFlashSale.webp)] tw-bg-cover tw-bg-center tw-bg-no-repeat'>
       <div className='tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-10'>
         <div className='tw-flex tw-flex-col tw-w-1/2 tw-relative tw-items-center tw-justify-center'>
           <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Flash Sale Mùa Vu lan</h2>
@@ -18,7 +18,7 @@ const FlashSale: React.FC<FlashSaleProps> = ({ products }) => {
           </p>
         </div>
         <div className='tw-absolute tw-right-[10%] sm:tw-right-[17%] md:tw-right-[20%] tw-top-[5%] md:tw-top-[10%] -tw-translate-y-1/2'>
-          <img src='/mascot2.png' alt='Robot mascot' className='tw-w-20 tw-h-20' />
+          <img src='/mascot2.webp' alt='Robot mascot' className='tw-w-20 tw-h-20' />
         </div>
 
         <div className='tw-relative tw-w-full tw-px-8 tw-mt-10'>

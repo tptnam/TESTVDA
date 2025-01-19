@@ -27,7 +27,7 @@ const Showroom: React.FC<ShowroomProps> = ({ Showrooms }) => {
   return (
     <div className='tw-w-full tw-mx-auto tw-bg-[#fdf5f3] tw-relative'>
       <img
-        src='/EllipseShowroom.png'
+        src='/EllipseShowroom.webp'
         alt='Showroom Background'
         className=' tw-h-2/3 tw-absolute tw-translate-x-0 tw-translate-y-1/4 tw-hidden lg:tw-block'
       />
@@ -36,8 +36,8 @@ const Showroom: React.FC<ShowroomProps> = ({ Showrooms }) => {
         className='tw-w-full tw-mx-auto tw-p-10 tw-bg-[#fdf5f3] tw-flex tw-flex-col lg:tw-flex-row lg:tw-justify-between'
       >
         <div className='tw-w-[45%] lg:tw-flex lg:tw-flex-col tw-gap-4 tw-self-center tw-pl-[7%] tw-hidden '>
-          <img src='/showroom1.png' alt='Showroom 1' className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover' />
-          <img src='/showroom2.png' alt='Showroom 2' className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover' />
+          <img src='/showroom1.webp' alt='Showroom 1' className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover' />
+          <img src='/showroom2.webp' alt='Showroom 2' className='tw-w-full tw-h-auto tw-rounded-lg tw-object-cover' />
         </div>
 
         <div className='tw-w-full lg:tw-w-1/2 tw-flex tw-flex-col tw-pl-12'>
