@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='tw-bg-[#0B1929] tw-text-white tw-py-12'>
       <div className='tw-container tw-mx-auto tw-px-4'>
-        <img src='src/assets/brandLogo.png' alt='ABC SPORT' className='tw-mb-6 tw-w-24' />
+        <img src='/brandLogo.png' alt='ABC SPORT' className='tw-mb-6 tw-w-24' />
 
         <div className='tw-grid tw-grid-cols-1 md:tw-grid-cols-4 tw-gap-8'>
           <div className='tw-space-y-4'>
@@ -21,7 +21,7 @@ const Footer = () => {
               <Youtube className='tw-w-8 tw-h-8' />
               <Facebook className='tw-w-8 tw-h-8' />
               <Instagram className='tw-w-8 tw-h-8' />
-              <img src='src/assets/bocongthuong.png' alt='Đã thông báo' className='tw-h-8' />
+              <img src='/bocongthuong.png' alt='Đã thông báo' className='tw-h-8' />
             </div>
           </div>
 

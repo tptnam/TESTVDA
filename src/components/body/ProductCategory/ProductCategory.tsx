@@ -40,7 +40,7 @@ const ProductCategory: React.FC<ProductCategoriesProps> = ({ categories }) => {
   return (
     <div id='san-pham' className='tw-bg-white tw-py-20'>
       <div className='tw-mb-8 tw-justify-center tw-items-center tw-flex'>
-        <img src='src/assets/medal.png' alt='Medal icon' className='tw-w-16 tw-h-16 tw-mr-3' />
+        <img src='/medal.png' alt='Medal icon' className='tw-w-16 tw-h-16 tw-mr-3' />
         <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500'>Danh Mục Sản Phẩm</h2>
       </div>
       <div className='tw-relative tw-px-8'>

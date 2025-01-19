@@ -17,7 +17,7 @@ const Banner: React.FC = () => {
       title1: 'From Stress',
       title2: 'To Serenity',
       highlightWords: ['Stress', 'Serenity'],
-      image: 'src/assets/banner1.png'
+      image: '/banner1.png'
     },
     {
       id: 2,
@@ -48,7 +48,8 @@ const Banner: React.FC = () => {
               >
                 <img
                   className='tw-absolute md:tw-right-[50%] tw-top-10 tw-w-32 md:tw-w-80 lg:tw-block tw-hidden'
-                  src='src/assets/mascot1.png'
+                  src='/mascot1.png'
+                  alt='Mascot'
                 />
                 <div className='tw-container tw-mx-auto tw-px-4'>
                   <div className='tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-8 tw-items-center tw-min-h-[75vh]'>

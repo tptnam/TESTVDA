@@ -55,11 +55,11 @@ const CustomerReview: React.FC<ReviewProps> = ({ reviews }) => {
         </div>
 
         <div className='tw-hidden xl:tw-block xl:tw-w-1/2 xl:tw-h-full'>
-          <img src='src/assets/reviewimage.png' alt='Review' className='tw-w-full tw-h-full tw-object-fit' />
+          <img src='/reviewimage.png' alt='Review' className='tw-w-full tw-h-full tw-object-fit' />
         </div>
       </div>
       <img
-        src='src/assets/EllipseReview.png'
+        src='/EllipseReview.png'
         alt='Review'
         className='tw-absolute tw-bottom-0 tw-left-1/2 tw-transform tw-translate-x-[-50%] tw-h-32 tw-object-fill tw-hidden xl:tw-block'
       />
