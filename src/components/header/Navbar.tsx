@@ -7,15 +7,12 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Navbar */}
       <BSNavbar expand='lg' className='py-3 tw-bg-bgApp fixed-top'>
         <Container>
-          {/* Logo */}
           <BSNavbar.Brand href='/' className='text-white tw-w-32 md:tw-w-auto'>
             <img src='./src/assets/brandLogo.png' alt='ABC Sport' className='tw-h-8 md:tw-h-10' />
           </BSNavbar.Brand>
 
-          {/* Search Bar - Hidden on mobile, shown on tablet/desktop */}
           <div className='tw-flex-grow tw-hidden tw-mx-4 md:tw-flex lg:tw-mx-10'>
             <div className='tw-relative tw-w-full tw-max-w-xl'>
               <input type='text' placeholder='Từ khóa tìm kiếm...' className='tw-w-full form-control' />
@@ -25,7 +22,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* User Controls */}
           <div className='text-white tw-flex tw-items-center tw-gap-2 md:tw-gap-4'>
             <a href='/login' className='text-white tw-flex tw-items-center tw-gap-2 tw-no-underline md:tw-gap-2'>
               <Person className='tw-w-5 tw-h-5 md:tw-w-5 md:tw-h-5' />
@@ -41,10 +37,8 @@ const Navbar = () => {
         </Container>
       </BSNavbar>
 
-      {/* Bottom Navbar */}
-      <BSNavbar expand='lg' className='tw-bg-gray-900 py-0 fixed-top tw-mt-[60px] md:tw-mt-[76px]'>
+      <BSNavbar expand='lg' className='tw-bg-black py-0 fixed-top tw-mt-[60px] md:tw-mt-[76px]'>
         <Container>
-          {/* Mobile Toggle Button */}
           <BSNavbar.Toggle
             aria-controls='basic-navbar-nav'
             onClick={() => setIsOpen(!isOpen)}
@@ -63,46 +57,47 @@ const Navbar = () => {
               </div>
 
               <Nav.Link
-                href='/ve-chung-toi'
+                href='#ve-chung-toi'
                 className='tw-text-white tw-py-3 tw-text-center hover:tw-text-orange-400 md:tw-text-left'
               >
                 Về Chúng Tôi
               </Nav.Link>
               <Nav.Link
-                href='/san-pham'
+                href='#san-pham'
                 className='tw-text-white tw-py-3 tw-text-center hover:tw-text-orange-400 md:tw-text-left'
               >
                 Sản Phẩm
               </Nav.Link>
               <Nav.Link
-                href='/khuyen-mai'
+                href='#khuyen-mai'
                 className='tw-text-white tw-py-3 tw-text-center hover:tw-text-orange-400 md:tw-text-left'
               >
                 Khuyến Mãi
               </Nav.Link>
               <Nav.Link
-                href='/tin-tuc'
+                href='#tin-tuc'
                 className='tw-text-white tw-py-3 tw-text-center hover:tw-text-orange-400 md:tw-text-left'
               >
                 Tin Tức
               </Nav.Link>
               <Nav.Link
-                href='/lien-he'
+                href='#lien-he'
                 className='tw-text-white tw-py-3 tw-text-center hover:tw-text-orange-400 md:tw-text-left'
               >
                 Liên hệ
               </Nav.Link>
             </Nav>
 
-            <div className='tw-items-center tw-hidden tw-text-orange-400 lg:tw-flex'>
-              <Shop className='tw-w-5 tw-h-5 me-2' />
-              <span>120 Showroom toàn quốc</span>
+            <div className='tw-items-center tw-hidden tw-text-bgApp lg:tw-flex'>
+              <a href='#showroom' className='tw-flex tw-items-center tw-gap-2 tw-no-underline'>
+                <Shop className='tw-w-5 tw-h-5 me-2' />
+                <span>120 Showroom toàn quốc</span>
+              </a>
             </div>
           </BSNavbar.Collapse>
         </Container>
       </BSNavbar>
 
-      {/* Spacer */}
       <div className='tw-h-[108px] md:tw-h-[120px]'></div>
     </>
   )

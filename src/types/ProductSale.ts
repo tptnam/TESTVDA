@@ -3,6 +3,5 @@ export interface Product {
   name: string
   originalPrice: number
   salePrice: number
-  discountPercentage: number
   image: string
 }

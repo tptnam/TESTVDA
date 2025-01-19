@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import { ArrowRight } from 'react-bootstrap-icons'
 
 interface SlideContent {
   id: number
@@ -35,7 +36,7 @@ const Banner: React.FC = () => {
   ]
 
   return (
-    <div className='tw-relative tw-overflow-hidden'>
+    <div id='ve-chung-toi' className='tw-relative tw-overflow-hidden'>
       <Carousel controls={false} indicators={true} className='carousel-custom'>
         {/* custom in App.css */}
         {slides.map((slide) => (
@@ -65,8 +66,9 @@ const Banner: React.FC = () => {
                           </span>
                         ))}
                       </h1>
-                      <button className='tw-bg-bgApp tw-text-white tw-px-6 tw-py-3 tw-rounded-full tw-font-semibold hover:tw-bg-orange-600 tw-transition-colors tw-w-fit'>
+                      <button className='tw-bg-bgApp tw-text-white tw-px-6 tw-py-3 tw-rounded-full tw-font-semibold hover:tw-bg-orange-600 tw-transition-colors tw-w-fit tw-flex tw-items-center'>
                         DISCOVER MORE
+                        <ArrowRight size={24} className='tw-ml-2' />
                       </button>
                     </div>
                   </div>

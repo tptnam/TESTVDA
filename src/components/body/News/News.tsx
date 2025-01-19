@@ -1,24 +1,19 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import { Product } from '../../../types/ProductSale'
-import ProductSale from './components/ProductSale'
+import NewsItem from './components/NewsItem'
+import { NewsType } from '../../../types/News'
+import { ArrowRight } from 'react-bootstrap-icons'
 
 interface FlashSaleProps {
-  products: Product[]
+  products: NewsType[]
 }
 
-const FlashSale: React.FC<FlashSaleProps> = ({ products }) => {
+const News: React.FC<FlashSaleProps> = ({ products }) => {
   return (
-    <div className='tw-relative tw-py-12 tw-bg-[url(/src/assets/bgFlashSale.png)] tw-bg-cover tw-bg-center tw-bg-no-repeat'>
+    <div id='tin-tuc' className='tw-relative tw-py-12 tw-bg-cover tw-bg-center tw-bg-no-repeat'>
       <div className='tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-10'>
         <div className='tw-flex tw-flex-col tw-w-1/2 tw-relative tw-items-center tw-justify-center'>
-          <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Flash Sale Mùa Vu lan</h2>
-          <p className='tw-text-gray-600 tw-mt-2 tw-text-center'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis sed sapien in pretium.
-          </p>
-        </div>
-        <div className='tw-absolute tw-right-[10%] sm:tw-right-[17%] md:tw-right-[20%] tw-top-[5%] md:tw-top-[10%] -tw-translate-y-1/2'>
-          <img src='./src/assets/mascot2.png' alt='Robot mascot' className='tw-w-20 tw-h-20' />
+          <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Tin Tức & Sự Kiện</h2>
         </div>
 
         <div className='tw-relative tw-w-full tw-px-8 tw-mt-10'>
@@ -27,16 +22,22 @@ const FlashSale: React.FC<FlashSaleProps> = ({ products }) => {
               <Carousel.Item key={index}>
                 <div className='tw-grid tw-grid-cols-1 sm:tw-grid-cols-2 md:tw-grid-cols-3 lg:tw-grid-cols-4 tw-gap-6'>
                   {products.slice(index * 4, (index + 1) * 4).map((product) => (
-                    <ProductSale key={product.id} product={product} />
+                    <NewsItem key={product.id} news={product} />
                   ))}
                 </div>
               </Carousel.Item>
             ))}
           </Carousel>
         </div>
+        <div className='tw-flex tw-justify-center tw-mt-8'>
+          <button className='tw-flex tw-items-center tw-px-6 tw-py-2 tw-font-semibold tw-text-white tw-bg-bgApp tw-rounded-full hover:tw-bg-orange-600'>
+            XEM TẤT CẢ
+            <ArrowRight size={16} className='tw-ml-2' />
+          </button>
+        </div>
       </div>
     </div>
   )
 }
 
-export default FlashSale
+export default News

@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgApp: '#FA5A0A'
+        bgApp: '#FA5A0A',
+        bgApp2: '#FA5A0A'
       }
     }
   },
