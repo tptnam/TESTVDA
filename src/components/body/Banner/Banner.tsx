@@ -42,9 +42,13 @@ const Banner: React.FC = () => {
           <Carousel.Item key={slide.id}>
             <div className='tw-relative'>
               <div
-                className={`tw-min-h-[75vh] tw-w-100%  tw-bg-no-repeat tw-bg-cover tw-bg-center tw-bg-fixed `}
+                className={`tw-min-h-[75vh] tw-w-full tw-bg-no-repeat tw-bg-cover tw-bg-center tw-relative`}
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
+                <img
+                  className='tw-absolute md:tw-right-[50%] tw-top-10 tw-w-32 md:tw-w-80 lg:tw-block tw-hidden'
+                  src='./src/assets/mascot1.png'
+                />
                 <div className='tw-container tw-mx-auto tw-px-4'>
                   <div className='tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-8 tw-items-center tw-min-h-[75vh]'>
                     <div className='tw-flex tw-flex-col tw-justify-center'>

@@ -17,3 +17,39 @@
 .carousel-custom .carousel-indicators button.active {
   @apply tw-w-8 tw-h-2.5 tw-bg-bgApp tw-rounded-full tw-border-none tw-opacity-100;
 }
+
+/*custom carousel flash sale */
+
+.carousel-custom-flash-sale .carousel-inner {
+  @apply tw-w-full;
+}
+
+.carousel-custom-flash-sale .carousel-control-prev,
+.carousel-custom-flash-sale .carousel-control-next {
+  @apply tw-w-8 tw-h-8 tw-bg-white tw-rounded-full tw-opacity-100 tw-absolute tw-top-1/2 tw-transform -tw-translate-y-1/2;
+  @apply tw-shadow-lg;
+}
+
+.carousel-custom-flash-sale .carousel-control-prev {
+  @apply -tw-left-16;
+}
+
+.carousel-custom-flash-sale .carousel-control-next {
+  @apply -tw-right-16;
+}
+
+.carousel-custom-flash-sale .carousel-control-prev-icon,
+.carousel-custom-flash-sale .carousel-control-next-icon {
+  @apply tw-w-4 tw-h-4;
+  filter: invert(1) grayscale(100);
+}
+
+.carousel-custom-flash-sale .carousel-control-prev:hover,
+.carousel-custom-flash-sale .carousel-control-next:hover {
+  @apply tw-bg-orange-500;
+}
+
+.carousel-custom-flash-sale .carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-custom-flash-sale .carousel-control-next:hover .carousel-control-next-icon {
+  @apply tw-filter-none;
+}
