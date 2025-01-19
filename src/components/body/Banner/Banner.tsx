@@ -50,6 +50,7 @@ const Banner: React.FC = () => {
                   className='tw-absolute md:tw-right-[50%] tw-top-10 tw-w-32 md:tw-w-80 lg:tw-block tw-hidden'
                   src='/mascot1.webp'
                   alt='Mascot'
+                  loading='eager'
                 />
                 <div className='tw-container tw-mx-auto tw-px-4'>
                   <div className='tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-8 tw-items-center tw-min-h-[75vh]'>

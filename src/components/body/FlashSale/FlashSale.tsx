@@ -9,7 +9,7 @@ interface FlashSaleProps {
 
 const FlashSale: React.FC<FlashSaleProps> = ({ products }) => {
   return (
-    <div className='tw-relative tw-py-12 tw-bg-[url(//bgFlashSale.webp)] tw-bg-cover tw-bg-center tw-bg-no-repeat'>
+    <div className='tw-relative tw-py-12 tw-bg-[url(/bgFlashSale.webp)] tw-bg-cover tw-bg-center tw-bg-no-repeat'>
       <div className='tw-container tw-mx-auto tw-px-4 tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-10'>
         <div className='tw-flex tw-flex-col tw-w-1/2 tw-relative tw-items-center tw-justify-center'>
           <h2 className='tw-text-4xl tw-font-bold tw-text-orange-500 tw-text-center'>Flash Sale Mùa Vu lan</h2>
