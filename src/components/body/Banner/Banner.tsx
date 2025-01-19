@@ -1,0 +1,79 @@
+import React from 'react'
+import { Carousel } from 'react-bootstrap'
+
+interface SlideContent {
+  id: number
+  title1: string
+  title2: string
+  highlightWords: string[]
+  image: string
+}
+
+const Banner: React.FC = () => {
+  const slides: SlideContent[] = [
+    {
+      id: 1,
+      title1: 'From Stress',
+      title2: 'To Serenity',
+      highlightWords: ['Stress', 'Serenity'],
+      image: './src/assets/banner1.png'
+    },
+    {
+      id: 2,
+      title1: 'From Stress 2',
+      title2: 'To Serenity',
+      highlightWords: ['Stress', 'Serenity'],
+      image: '/khong co anh'
+    },
+    {
+      id: 3,
+      title1: 'From Stress 3',
+      title2: 'To Serenity',
+      highlightWords: ['Stress', 'Serenity'],
+      image: '/khong co anh'
+    }
+  ]
+
+  return (
+    <div className='tw-relative tw-overflow-hidden'>
+      <Carousel controls={false} indicators={true} className='carousel-custom'>
+        {/* custom in App.css */}
+        {slides.map((slide) => (
+          <Carousel.Item key={slide.id}>
+            <div className='tw-relative'>
+              <div
+                className={`tw-min-h-[75vh] tw-w-100%  tw-bg-no-repeat tw-bg-cover tw-bg-center tw-bg-fixed `}
+                style={{ backgroundImage: `url(${slide.image})` }}
+              >
+                <div className='tw-container tw-mx-auto tw-px-4'>
+                  <div className='tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-8 tw-items-center tw-min-h-[75vh]'>
+                    <div className='tw-flex tw-flex-col tw-justify-center'>
+                      <h1 className='tw-text-4xl md:tw-text-5xl tw-font-bold tw-mb-6'>
+                        {slide.title1.split(' ').map((word, i) => (
+                          <span key={i} className={slide.highlightWords.includes(word) ? 'tw-text-bgApp' : ''}>
+                            {word}{' '}
+                          </span>
+                        ))}
+                        <br />
+                        {slide.title2.split(' ').map((word, i) => (
+                          <span key={i} className={slide.highlightWords.includes(word) ? 'tw-text-bgApp' : ''}>
+                            {word}{' '}
+                          </span>
+                        ))}
+                      </h1>
+                      <button className='tw-bg-bgApp tw-text-white tw-px-6 tw-py-3 tw-rounded-full tw-font-semibold hover:tw-bg-orange-600 tw-transition-colors tw-w-fit'>
+                        DISCOVER MORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </div>
+  )
+}
+
+export default Banner

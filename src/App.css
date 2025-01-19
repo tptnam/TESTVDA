@@ -5,3 +5,15 @@
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
+.carousel-custom .carousel-indicators {
+  @apply tw-bottom-5 tw-z-10 tw-flex tw-items-center tw-justify-center tw-gap-1;
+}
+
+.carousel-custom .carousel-indicators button {
+  @apply tw-w-2.5 tw-h-2.5 tw-rounded-[50%] tw-bg-black tw-opacity-50 tw-mx-1;
+}
+
+.carousel-custom .carousel-indicators button.active {
+  @apply tw-w-8 tw-h-2.5 tw-bg-bgApp tw-rounded-full tw-border-none tw-opacity-100;
+}
